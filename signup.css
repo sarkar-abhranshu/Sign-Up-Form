@@ -1,0 +1,49 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.signup {
+    display: flex;
+}
+
+.side {
+    position: relative;
+    width: 500px;
+    height: 100vh;
+    background-image: url('photo-1693889394125-4195ab34a5b8.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgba(35, 32, 32, 0.5);
+    background-image: url('odin-lined.png');
+    background-repeat: no-repeat;
+    background-position: center left 20%;
+    background-size: 100px;
+    height: 100px;
+}
+
+@font-face {
+    font-family: 'norseBold';
+    src: url('Norse-Bold.otf');
+}
+
+.logo .odin {
+    font-size: 5rem;
+    font-family: 'norseBold', sans-serif;
+    color: white;
+    margin-left: 100px;
+}
