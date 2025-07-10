@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -12,7 +13,7 @@ html, body {
     position: relative;
     width: 500px;
     height: 100vh;
-    background-image: url('photo-1693889394125-4195ab34a5b8.avif');
+    background-image: url("photo-1693889394125-4195ab34a5b8.avif");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -29,7 +30,7 @@ html, body {
     text-align: center;
     padding: 10px 0;
     background-color: rgba(35, 32, 32, 0.5);
-    background-image: url('odin-lined.png');
+    background-image: url("odin-lined.png");
     background-repeat: no-repeat;
     background-position: center left 20%;
     background-size: 100px;
@@ -37,13 +38,75 @@ html, body {
 }
 
 @font-face {
-    font-family: 'norseBold';
-    src: url('Norse-Bold.otf');
+    font-family: "norseBold";
+    src: url("Norse-Bold.otf");
 }
 
 .logo .odin {
     font-size: 5rem;
-    font-family: 'norseBold', sans-serif;
+    font-family: "norseBold", sans-serif;
     color: white;
     margin-left: 100px;
+}
+
+.right {
+    margin: 0 35px;
+}
+
+.top p {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.signup-form {
+    margin: 0 auto;
+    padding-right: 600px;
+}
+
+.signup-form section {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 20px;
+}
+
+.signup-form section > div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-form label {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+    color: #444;
+    text-transform: uppercase;
+}
+
+.signup-form input {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.signup-form input:focus {
+    border-color: #1976d2;
+}
+
+.signup-form input:invalid {
+    border: 2px solid #d32f2f;
+    background: #fff;
+}
+
+.signup-form button {
+    color: #ccc;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #596D48;
+    border: 0px;
+    padding: 15px 20px;
 }
