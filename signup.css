@@ -87,7 +87,7 @@ body {
 .signup-form input {
     padding: 8px 12px;
     font-size: 16px;
-    border: 1px solid #ccc;
+    border: 1px solid #E5E7EB;
     border-radius: 4px;
     outline: none;
     transition: border-color 0.2s;
@@ -109,4 +109,14 @@ body {
     background-color: #596D48;
     border: 0px;
     padding: 15px 20px;
+}
+
+.login {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.login a {
+    text-decoration: none;
+    color: #596D48;
 }
